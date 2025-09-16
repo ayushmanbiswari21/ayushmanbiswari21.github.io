@@ -1,2 +1,245 @@
-<h1>Hello, world!</h1>
-<p>Welcome to my GitHub Page.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ayushman Biswari — Portfolio</title>
+  <meta name="description" content="Portfolio of Ayushman Biswari — MBA (Finance & Strategy) at BITSoM, ex-ICICI Bank, Venture Capital intern at Dynamis (Stride) Ventures, ex-Acuity Knowledge Partners." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+    .chip { @apply inline-flex items-center rounded-full border px-3 py-1 text-sm; }
+    .card { @apply rounded-2xl border bg-white/70 backdrop-blur shadow-sm hover:shadow-md transition-shadow; }
+    .tag { @apply rounded-full bg-slate-100 px-2.5 py-0.5 text-xs font-medium text-slate-700; }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-slate-50 to-white text-slate-800">
+  <!-- Nav -->
+  <header class="sticky top-0 z-40 border-b bg-white/80 backdrop-blur">
+    <div class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+      <a href="#home" class="font-extrabold tracking-tight text-lg">AB</a>
+      <nav class="hidden md:flex gap-6 text-sm font-medium">
+        <a href="#about" class="hover:text-slate-900">About</a>
+        <a href="#experience" class="hover:text-slate-900">Experience</a>
+        <a href="#projects" class="hover:text-slate-900">Projects</a>
+        <a href="#achievements" class="hover:text-slate-900">Achievements</a>
+        <a href="#contact" class="hover:text-slate-900">Contact</a>
+      </nav>
+      <a href="#contact" class="chip border-slate-300 hover:bg-slate-50">Let’s talk</a>
+    </div>
+  </header>
+
+  <!-- Hero / Intro -->
+  <section id="home" class="relative">
+    <div class="mx-auto max-w-6xl px-4 pt-14 pb-10 md:pt-20 md:pb-16">
+      <div class="grid md:grid-cols-12 gap-8 items-center">
+        <div class="md:col-span-7">
+          <h1 class="text-4xl md:text-6xl font-extrabold leading-tight tracking-tight">
+            Hi, I’m <span class="bg-gradient-to-r from-violet-600 to-indigo-600 bg-clip-text text-transparent">Ayushman Biswari</span>.
+          </h1>
+          <p class="mt-5 text-lg md:text-xl text-slate-700 max-w-2xl">
+            MBA (Finance & Strategy) candidate at BITSoM (Class of 2026) with a Computer Science background (VIT).
+            I’ve worked across <span class="font-semibold">Venture Capital</span>, <span class="font-semibold">Corporate Banking</span>, and <span class="font-semibold">Investment/Research</span>—building theses, sizing markets, and shipping data-driven insights.
+          </p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <span class="tag">Venture Capital</span>
+            <span class="tag">TAM Sizing</span>
+            <span class="tag">Financial Modeling</span>
+            <span class="tag">Strategy</span>
+            <span class="tag">Automation</span>
+          </div>
+          <div class="mt-8 flex items-center gap-4">
+            <a href="#experience" class="chip border-slate-300 hover:bg-slate-50">View experience</a>
+            <a href="https://www.researchgate.net/publication/340337146_TECHNOLOGY_THE_HOUR'S_NEED" target="_blank" class="underline underline-offset-4">ResearchGate</a>
+          </div>
+        </div>
+        <div class="md:col-span-5">
+          <div class="card p-6 md:p-8">
+            <p class="text-sm uppercase tracking-widest text-slate-500">Snapshot</p>
+            <ul class="mt-3 space-y-3 text-sm">
+              <li class="flex items-start gap-3"><span class="mt-1 h-2 w-2 rounded-full bg-indigo-600"></span> VC Intern — Dynamis (Stride) Ventures: built investment theses, evaluated early-stage fintech & cross-border plays.</li>
+              <li class="flex items-start gap-3"><span class="mt-1 h-2 w-2 rounded-full bg-indigo-600"></span> Summer Intern — ICICI Bank (Corporate Banking): mapped ₹48,300 Cr wallet across 71 MNCs; TAM for FX, liabilities & deposits.</li>
+              <li class="flex items-start gap-3"><span class="mt-1 h-2 w-2 rounded-full bg-indigo-600"></span> Analyst — Acuity Knowledge Partners: automated DDQs, improved team efficiency, and supported $250Bn+ AUM client.</li>
+            </ul>
+            <div class="mt-5 grid grid-cols-2 gap-3 text-center">
+              <div class="card p-4">
+                <div class="text-2xl font-extrabold">26.5M+</div>
+                <div class="text-xs text-slate-500">Impressions on YouTube</div>
+              </div>
+              <div class="card p-4">
+                <div class="text-2xl font-extrabold">1.5M+</div>
+                <div class="text-xs text-slate-500">Views across 15 countries</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-8 md:py-12 border-t">
+    <div class="mx-auto max-w-6xl px-4">
+      <div class="grid md:grid-cols-12 gap-8 items-start">
+        <div class="md:col-span-5">
+          <h2 class="text-2xl md:text-3xl font-bold tracking-tight">About me</h2>
+          <p class="mt-4 text-slate-700">I enjoy translating ambiguous problem statements into structured analyses and practical recommendations. Whether it’s value creation levers in VC, cross-sell strategies in corporate banking, or process automation in research ops—my bias is toward clarity, speed, and measurable impact.</p>
+          <div class="mt-4 flex flex-wrap gap-2">
+            <span class="tag">MBA — BITSoM ’26</span>
+            <span class="tag">B.Tech CSE — VIT ’23</span>
+            <span class="tag">Fine Arts Awardee (President of India)</span>
+          </div>
+        </div>
+        <div class="md:col-span-7 grid gap-4">
+          <div class="card p-5">
+            <h3 class="font-semibold">Education</h3>
+            <ul class="mt-2 text-sm space-y-2">
+              <li><span class="font-medium">MBA (Finance & Strategy)</span> — BITSoM, Mumbai (2024–2026)</li>
+              <li><span class="font-medium">B.Tech, Computer Science</span> — VIT, Vellore (2019–2023), GPA 8.29/10</li>
+              <li>Class XII — 91% (95% in Mathematics); Class X — 10/10 CGPA</li>
+            </ul>
+          </div>
+          <div class="card p-5">
+            <h3 class="font-semibold">Select achievements</h3>
+            <ul class="mt-2 text-sm space-y-2">
+              <li>National-level Drawing Competition — Awarded by the President of India; Rank 1 at State level (Water Resources, GoI).</li>
+              <li>Sports — State-level Judo (Bronze, 65kg), Air Rifle (Top-20), National Tennis camp selection.</li>
+              <li>Academics — National Fintech Olympiad ’24 Finalist (Top 150/40k+), IMO State Rank 3, UCMAS Nationals.</li>
+              <li>Research — IEEE paper on technology integration in education.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="py-8 md:py-12 border-t">
+    <div class="mx-auto max-w-6xl px-4">
+      <h2 class="text-2xl md:text-3xl font-bold tracking-tight">Experience</h2>
+      <div class="mt-6 grid gap-5 md:grid-cols-2">
+        <article class="card p-6">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="text-lg font-semibold">Venture Capital Intern — Dynamis (Stride) Ventures</h3>
+            <span class="text-xs text-slate-500">Jan 2025 – Mar 2025</span>
+          </div>
+          <ul class="mt-3 text-sm space-y-2">
+            <li>Built industry theses with Tracxn & public data; estimated TAM and presented to the Principal.</li>
+            <li>Analysed 19 VC/PE firms for resource savings & pricing; mapped property-tech valuation frameworks.</li>
+            <li>Qualified 7/28 early-stage fintechs from RBIH & SP Jain accelerators; supported 2 term sheets and 1 funding round.</li>
+            <li>Researched cross-border payments/derivatives; reviewed licensing (PACB, IFSCA).</li>
+          </ul>
+        </article>
+        <article class="card p-6">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="text-lg font-semibold">Summer Intern — ICICI Bank (Corporate Banking), Delhi</h3>
+            <span class="text-xs text-slate-500">Apr 2025 – Jun 2025</span>
+          </div>
+          <ul class="mt-3 text-sm space-y-2">
+            <li>Mapped ₹48,300 Cr wallet across 71 MNCs; identified whitespace in 5 product categories.</li>
+            <li>Quantified TAM: $3.3Bn FX, ₹3,000 Cr liabilities, ₹18,670 Cr deposits, ₹15,885 Cr salary-linked potential.</li>
+            <li>Crafted AI-led onboarding & risk intelligence features; 
+              recommended ERP integrations & automated triggers.</li>
+            <li>Benchmarked FD rates vs 9 peers across 17 tenors; built competitive rate database for share gains.</li>
+          </ul>
+        </article>
+        <article class="card p-6 md:col-span-2">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="text-lg font-semibold">Analyst — Acuity Knowledge Partners (RFP Team), Bangalore</h3>
+            <span class="text-xs text-slate-500">May 2023 – Dec 2023</span>
+          </div>
+          <ul class="mt-3 text-sm space-y-2">
+            <li>Led secondary research for 80+ DDQs with 10+ SMEs; sourced data from multiple vendor platforms.</li>
+            <li>Automated 30 DDQs (scope to 50), cutting man-hours by 40% for a $250Bn+ AUM client.</li>
+            <li>Improved team productivity by 9% via workload reallocation; ensured cross-country documentation standards.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-8 md:py-12 border-t">
+    <div class="mx-auto max-w-6xl px-4">
+      <h2 class="text-2xl md:text-3xl font-bold tracking-tight">Select Projects</h2>
+      <div class="mt-6 grid gap-5 md:grid-cols-3">
+        <div class="card p-6">
+          <h3 class="font-semibold">The Valuation School (Apr–Aug 2025)</h3>
+          <p class="mt-2 text-sm">Built a full valuation model for Marico using Comps/Transactions; Sensex valuation using WACC, β, CoC; sensitivity, DuPont, VAR & Altman Z-Score.</p>
+        </div>
+        <div class="card p-6">
+          <h3 class="font-semibold">J.P. Morgan — Investment Banking (Aug 2025)</h3>
+          <p class="mt-2 text-sm">Identified $3.5Bn M&A; EV/EBITDA-based DCF, projections & sensitivities; produced investment memo.</p>
+        </div>
+        <div class="card p-6">
+          <h3 class="font-semibold">Citi — Investment Banking (Jul 2025)</h3>
+          <p class="mt-2 text-sm">Evaluated $18Bn target; 5-year IS forecast, trading comps across 7 peers; investor update report.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements & Leadership -->
+  <section id="achievements" class="py-8 md:py-12 border-t">
+    <div class="mx-auto max-w-6xl px-4">
+      <h2 class="text-2xl md:text-3xl font-bold tracking-tight">Achievements & Leadership</h2>
+      <div class="mt-6 grid gap-5 md:grid-cols-2">
+        <div class="card p-6">
+          <h3 class="font-semibold">Content Strategy — YouTube (Nov 2019 – Jan 2022)</h3>
+          <ul class="mt-2 text-sm space-y-2">
+            <li>26.5M+ impressions, 1.5M+ views, 13k+ subscribers, 90k+ watch hours; ₹40k revenue.</li>
+            <li>Collab offers from Unacademy, Physics Wallah, Emversity & other edtechs.</li>
+          </ul>
+        </div>
+        <div class="card p-6">
+          <h3 class="font-semibold">Positions of Responsibility</h3>
+          <ul class="mt-2 text-sm space-y-2">
+            <li><span class="font-medium">BCC Consulting Club:</span> 513 team entries; 20k+ impressions; ₹67.5k prize pool for first case competition.</li>
+            <li><span class="font-medium">Public Speaking Club:</span> Led logistics for Youth Parliament (₹25k) with sponsors incl. YES Bank & Nivea.</li>
+            <li><span class="font-medium">Library Committee:</span> Selected 1/158 as Advisory Committee representative; improved policies & resources.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-10 md:py-16 border-t">
+    <div class="mx-auto max-w-6xl px-4">
+      <div class="grid md:grid-cols-12 gap-8 items-center">
+        <div class="md:col-span-7">
+          <h2 class="text-2xl md:text-3xl font-bold tracking-tight">Let’s connect</h2>
+          <p class="mt-3 text-slate-700">Open to roles in venture, corporate / investment banking, strategy & research. Happy to chat about valuation, fintech, and GTM for B2B products.</p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="mailto:ayushman@example.com" class="chip border-slate-300 hover:bg-slate-50">Email</a>
+            <a href="https://www.researchgate.net/publication/340337146_TECHNOLOGY_THE_HOUR'S_NEED" target="_blank" class="chip border-slate-300 hover:bg-slate-50">Research</a>
+          </div>
+          <p class="mt-2 text-xs text-slate-500">(Replace the email with your real address before publishing.)</p>
+        </div>
+        <div class="md:col-span-5">
+          <div class="card p-6">
+            <h3 class="font-semibold">Résumé</h3>
+            <p class="mt-2 text-sm">You can link your current CV PDF here once hosted online.</p>
+            <a class="mt-3 inline-flex items-center gap-2 rounded-xl border px-4 py-2 text-sm hover:bg-slate-50" href="#" onclick="alert('Replace this link with your hosted PDF URL.')">View CV (PDF)</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-10 border-t">
+    <div class="mx-auto max-w-6xl px-4 text-sm text-slate-500 flex items-center justify-between">
+      <p>© <span id="y"></span> Ayushman Biswari</p>
+      <a href="#home" class="underline underline-offset-4">Back to top</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
